@@ -4,7 +4,6 @@ import com.taller.compras.service.ProductoServicio;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class ProductoControlador {
@@ -15,7 +14,7 @@ public class ProductoControlador {
         this.productoServicio = productoServicio;
     }
 
-    @GetMapping("/lista-productos")
+    @GetMapping("/productos")
     public String listarProductos(Model modelo) {
         modelo.addAttribute("productos", productoServicio.obtenerTodosLosProductos());
         return "productos";
