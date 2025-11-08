@@ -1,4 +1,4 @@
-package com.taller.compras.entity;
+package com.taller.compras.modelo;
 
 import jakarta.persistence.*;
 

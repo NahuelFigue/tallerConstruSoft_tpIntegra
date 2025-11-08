@@ -1,7 +1,7 @@
-package com.taller.compras.service;
+package com.taller.compras.servicio;
 
-import com.taller.compras.entity.Producto;
-import com.taller.compras.repository.ProductoRepositorio;
+import com.taller.compras.modelo.Producto;
+import com.taller.compras.repositorio.ProductoRepositorio;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.taller.compras.controller;
+package com.taller.compras.controlador;
 
-import com.taller.compras.service.ProductoServicio;
+import com.taller.compras.servicio.ProductoServicio;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
